@@ -140,6 +140,7 @@ a.nav_link {
   font-size: 16px;
 }
 
+
 @media all and (max-width: 520px) {
   #banner span.name {
     position: relative;
@@ -159,10 +160,11 @@ a.nav_link {
 
 @media all and (max-width: 520px) {
   .current {
-  color: #AD974F;
-  border-color: white;
+  padding: 2px;
+  border: 2px solid white;
   }
 }
+
 @media all and (max-width: 550px) {
   a.nav_link {
     font-size: 13px;
@@ -209,17 +211,17 @@ nav.nav a.nav_link:after{
   bottom: -3px;
   left: 0;
   width: 0%;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #AD974F;
   transition: 0.25s;
 }
 
 nav.nav a.current {
-  border-bottom: 2px solid #AD974F;
+  border-bottom: 2px solid white;
   font-size: 16px;
 }
 
 nav.bootstrap_override a.nav_link, a.current:hover {
-  text-decoration: none;
+text-decoration: none;
 }
 
 nav.nav a.nav_link:hover:after {
