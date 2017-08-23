@@ -35,9 +35,8 @@ html {
  color: #3c3f42;
 }
 
-::selection {
-  background: #68a7ca;
-}
+*::-moz-selection { background-color: #AD974F;}
+*::selection { background-color: #AD974F; }
 
 ::-moz-selection {
   background: #68a7ca;
